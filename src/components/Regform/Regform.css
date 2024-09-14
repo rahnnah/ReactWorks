@@ -1,0 +1,106 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('bgreact.jpg'); /* Ensure the image path is correct */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    text-align: left; /* Keeps text alignment to the left */
+    margin-left: -60px; /* Keeps the heading moved to the right as per your requirement */
+    margin-bottom: 20px; /* Space between heading and container */
+    font-size: 35px; /* Slightly larger font size for prominence */
+    color: #f7f713; /* White for better contrast on a varied background */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    font-weight: bold; /* Makes the text stand out */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds shadow for depth */
+    letter-spacing: 1px; /* Spacing between letters for better readability */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    color: #333333; /* Dark gray for better readability */
+  }
+  
+  .form-container {
+    background-color: #f2f2f2; /* Background color matching the picture */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+    margin-right: 100px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Space between the fields */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd; /* Light gray border */
+    border-radius: 8px; /* Slightly rounded corners for inputs */
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #f7f713; /* Button color */
+    color: #190404;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #357abd; /* Darker shade of blue for hover effect */
+  }
+  
+  input::placeholder {
+    color: #888888; /* Gray color for placeholders */
+    font-size: 14px; /* Font size for placeholder text */
+  }
+  
+  .login-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333333; /* Dark gray for better readability */
+    margin-left: 69px; /* Adjust this value to move it further right as needed */
+  }
+  
+  .login-link a {
+    text-decoration: none;
+    color: #0066cc; /* Blue color for the link */
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline; /* Underline on hover for better visibility */
+  }
+  
+  
